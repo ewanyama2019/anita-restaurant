@@ -1,0 +1,341 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.jumbotron {
+    background-image: url("../assets/backgrounds/landing.jpg");
+    min-height: 550px;
+    max-width: 1400px;
+    margin: auto;
+    text-align: center;
+}
+
+/*========================================*/
+.fa-1x {
+    font-size: 1.5rem;
+}
+
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+
+.dark-blue-text {
+    color: #0A38F5;
+}
+
+.dark-pink-text {
+    color: #AC003A;
+}
+
+.dark-amber-text {
+    color: #ff6f00;
+}
+
+.dark-teal-text {
+    color: #004d40;
+}
+/*========================================*/
+
+.logo{
+   color: white;
+
+}
+#moto {
+    font-weight: bold;
+}
+.foodtop_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 195px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.foodtopspan-row-2 {
+    grid-row: span 2 / auto;
+    margin:auto;
+    
+    
+}
+.foodtop_grid_left {
+    margin:auto;
+    font-style: orvo;
+    font-size: 23pt; 
+    min-height:105px;
+    min-width: 100%;
+    padding-left: 30%;
+    padding-top: 8%;
+    
+        
+
+}
+#foodtopleft_2 {
+    background-color: #F15A29;
+     
+}
+.foodtopspan-row-2 {
+    margin: auto;
+    text-align: center;
+    padding-top: 20%;
+    color:white;
+}
+
+#breakfast {
+    background-image: url("../assets/foodtop/breakfast.jpg");
+    margin:0;
+}
+#lunch {
+    background-image: url("../assets/foodtop/lunch.jpg");
+    margin:0;
+}
+#dinner {
+    background-image: url("../assets/foodtop/dinner.jpg");
+    margin:0;
+}
+
+/* .btn {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+} */
+
+.image:hover {
+    background-color: whitesmoke;
+    color: black;
+    opacity:0.3 ;
+    text-decoration: black
+}
+.foodcenter {
+    height: 1260px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.foodcenter_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin:0;
+    padding-left: 10%;
+    padding-top: 10%;
+    border-color: red;
+    max-width: 490px;
+    max-height: 390px;
+}
+.imgfoodcenter {
+    border:20px solid white;
+    box-shadow: 5px 10px 18px grey;
+    margin-bottom: 20%;
+    
+}
+.imgfoodcenter1 {
+    /* margin-left:20%; */
+    padding-left:20%;
+    
+}
+/* h1.imgdrinkcenter1 {
+    /* text-anchor: end; 
+    padding-right: 20%; 
+
+}*/
+text-right{
+    padding-right: 20%;
+}
+.imgdrinkcenter {
+    border:20px solid white;
+    box-shadow: 5px 10px 18px grey;
+    /* margin-left:20%; */
+    
+}
+
+
+.drink-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 490px;
+    
+}
+.btn {
+    background-color: white;
+    border:2px solid orange;
+    color:orange;
+}
+.foodlower {
+    background-image: url("../assets/backgrounds/foodsBg.jpg");
+    margin:auto;
+    min-height: 600px;
+    max-width:1400px;
+}
+.foodlower-tabs {
+    
+    background-color: white;
+    max-width: 75%;
+    max-height: 75%;
+    margin:auto;
+
+}
+.foodlower-tab {
+    margin: auto;
+    padding-top: 10%;
+    max-width: 75%;
+
+    
+}
+.foodlower-nav{
+    background-color: lightgrey;
+    
+}
+.customer-feed{
+    margin:auto;
+    min-height: 440px;
+    max-width: 1400px;
+    padding-top: 7%;
+}
+.customer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    box-shadow: 5px 10px 10px grey;
+    
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+        
+}
+
+.customerspan-col-2 {
+    grid-column: span 2 / auto;
+    }
+
+.cleft-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+
+.cleft-span-col-3 {
+    grid-column: span 3 / auto;
+}
+
+.cleft-span-col-2 {
+    grid-column: span 2 / auto;
+}
+.customer-heading{
+    color: #F15A29
+}
+.email-delivery {
+    background-image: url("../assets/backgrounds/subscribe.jpg");
+    min-height: 300px;
+    max-width: 1400px;
+    margin: auto;
+    padding-top: 2%;
+}
+
+.email-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: auto;
+    max-width: 50%;
+}
+
+.emailspan-col-3 {
+    grid-column: span 3 / auto;
+    color: white;
+    text-align: justify
+}
+
+.emailspan-col-2 {
+    grid-column: span 2 / auto;
+}
+.form-styling{
+    max-width: 100%;
+    color: transparent;
+    margin: auto;
+       
+}
+.form-control{
+    max-width: 100%;
+}
+.emailHelp {
+    text-align: center;
+}
+.btn{
+    background-color: #F15A29;
+    color: white;
+    border: #F15A29 solid;
+
+}
+
+.about-us {
+    background-color: #F15A29;
+    min-height: 315px;
+    max-width: 1400px;
+    margin: auto;
+
+
+}
+.about-us {
+    padding-top: 2%
+}
+.aboutus-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    max-width: 20%;
+    margin: auto;
+    text-align: center
+    
+    
+}
+
+.aboutus-span-col-2 {
+    grid-column: span 2 / auto;
+    color: white;
+    text-align: left;
+       
+}
+/* h1.aboutus-span-col-2{
+    text-emphasis: #D55
+
+} */
+
+.aboutus-span-col-3 {
+    grid-column: span 3 / auto;
+    color: white;
+}
+#aboutus-span-col-3-bottom {
+    
+}
+
+/* 
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.foodtopspan-row-2:hover .image {
+    opacity: 0.3;
+}
+
+.foodtopspan-row-2:hover .middle {
+    opacity: 1;
+} */

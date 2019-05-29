@@ -1,0 +1,50 @@
+created local repository of needed assets. 
+-folder anita-restaurant
+-downloaded/cloned the assets and copied in the reespective folders.
+
+
+#Added HTML framword
+#added css and js link for jquery, bootstrap , custom css and custom js.
+ broked down develpment into
+ 
+ 1. make main site frameork
+ 2. add the Java Script
+ 3 add the Qjquey
+ 
+ 
+ 1.make main site framework
+ 
+    1.make container for top banner background (bootstrap)
+    
+        a. add background image
+        
+    2. make foodtop bar ander the top banner (use grid)
+    
+    3. make the food center section using divs. make holding container div
+        a. 4 2x2 grid divs
+        b. add pics in div 1
+        c. add 1 grid of 2 divs o hold the two drink1/drink2 divs
+        d. add border to photos divs.
+        e. add shadding style to the grid 1,4
+        f. add text to grid 2 and view gallary button with link to self page.
+        g. add text to the grid 3 and aligned text to the right using text-right class from bootstrap3
+        
+    4. make ffodlower section
+        a. add div
+        b. add background image
+        c. add tabs and pills
+
+        
+    5.  make the footer section
+    
+    6. make the email section
+    
+    7 .make feedback section
+    
+    
+    8. go to banner section and 
+        logo
+        motto text
+        center the contet
+        
+    9. food top bar to implement fade on hover
